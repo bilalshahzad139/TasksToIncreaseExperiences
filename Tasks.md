@@ -1,7 +1,7 @@
 # Case Study 1:
-- Google Drive allows you to create folders at nested level. End application will
+- Google Drive allows you to create nested folders. We need to replicate this functionality. End application will
   - Allow user to open a folder and show its content (for now a folder may contain one or more sub folders)
-  - Allow user to create a new folder considering current opened folder as parent folder. Folder at first level will have parent as null.
+  - Allow user to create a new folder considering current opened folder as parent folder. Folder at first level will have parent as null in database.
 - Note: We are not going to create any physical folders but creating a folder means adding a new record in table.
 
 ## Task 1
